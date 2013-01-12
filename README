@@ -1,0 +1,12 @@
+Hello,
+
+You should be Benji, in which case, hey! If you are not Benji, what are you doing in my toolbox? Did future me let you in here?
+
+Here is a project of important things. Setup scripts so everything is how I like it, libraries that I like to use, custom shell scripts, etc.
+
+VERSION HISTORY
+
+v1
+ - Added README
+ - Added git.sh
+   - Configures git credentials and default editor.
