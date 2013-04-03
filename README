@@ -5,6 +5,11 @@ You should be Benji, in which case, hey! If you are not Benji, what are you doin
 Here is a project of important things. Setup scripts so everything is how I like it, libraries that I like to use, custom shell scripts, etc.
 
 VERSION HISTORY
+v3
+ - Added .vimrc
+ - Added vim.sh
+   - Creates symlink to .vimrc
+
 v2
  - Added wallpaper.jpg
 
