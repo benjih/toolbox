@@ -2,6 +2,7 @@
 
 rm -f ~/.vimrc
 ln -s ~/toolbox/.vimrc ~/.vimrc
+rm -rf ~/.vim
 mkdir ~/.vim
 mkdir ~/.vim/backup
 mkdir ~/.vim/tmp
