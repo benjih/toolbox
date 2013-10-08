@@ -18,4 +18,4 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
-Bundle 'Lokaltog/powerline'
+Bundle 'Lokaltog/vim-powerline'
