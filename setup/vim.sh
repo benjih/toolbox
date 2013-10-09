@@ -1,7 +1,7 @@
 #! /bin/bash
 
 rm -f ~/.vimrc
-ln -s ~/toolbox/.vimrc ~/.vimrc
+ln -s ~/toolbox/resources/vimrc ~/.vimrc
 rm -rf ~/.vim
 mkdir ~/.vim
 mkdir ~/.vim/backup
