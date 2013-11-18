@@ -303,13 +303,9 @@
   </keybind>
 
   <!-- Keybindings for running applications -->
-  <keybind key="W-e">
+  <keybind key="W-space">
     <action name="Execute">
-      <startupnotify>
-        <enabled>true</enabled>
-        <name>Konqueror</name>
-      </startupnotify>
-      <command>kfmclient openProfile filemanagement</command>
+      <command>gmrun</command>
     </action>
   </keybind>
   <!-- Launch gnome-screenshot when Print is pressed -->
