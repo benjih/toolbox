@@ -1,0 +1,20 @@
+ShowDotFiles = 1
+TabTimeout = 0
+
+Terminal = terminator
+TermExec = ${Terminal} --command
+AlwaysInTerm = ssh telnet ftp lynx mc vi vim cat top sudo man info
+
+History = 500
+
+URL_http = x-www-browser %u
+URL_info = terminator --command info %s
+URL_man = ${TermExec} 'man %s'
+URL_info = ${TermExec} 'info %s'
+URL_file = exo-open %s
+URL_f = exo-open %s
+URL_s = x-www-browser 'http://www.google.com/search?q=%s'
+URL_is = x-www-browser 'https://www.google.com/search?site=&tbm=isch&q=%s'
+URL_yt = x-www-browser 'http://www.youtube.com/results?search_query=%s'
+URL_wiki = x-www-browser 'http://en.wikipedia.org/wiki/%s'
+URL_scholar = x-www-browser 'http://scholar.google.co.uk/scholar?hl=en&q=%s'
