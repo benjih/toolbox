@@ -7,12 +7,9 @@ AlwaysInTerm = ssh telnet ftp lynx mc vi vim cat top sudo man info
 
 History = 500
 
-URL_http = google-chrome %u
-URL_info = terminator --command info %s
-URL_man = ${TermExec} 'man %s'
-URL_info = ${TermExec} 'info %s'
-URL_file = exo-open %s
-URL_f = exo-open %s
+URL_term = terminator
+URL_chrome = google-chrome %s
+
 URL_g = google-chrome 'http://www.google.com/search?q=%s'
 URL_gis = google-chrome 'https://www.google.com/search?site=&tbm=isch&q=%s'
 URL_yt = google-chrome 'http://www.youtube.com/results?search_query=%s'
