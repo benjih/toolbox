@@ -57,7 +57,7 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>sans</name>
+      <name>Liberation Sans</name>
       <size>8</size>
       <!-- font size in points -->
       <weight>bold</weight>
@@ -66,7 +66,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>sans</name>
+      <name>Liberation Sans</name>
       <size>8</size>
       <!-- font size in points -->
       <weight>bold</weight>
@@ -75,7 +75,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>sans</name>
+      <name>Liberation Sans</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>normal</weight>
@@ -84,7 +84,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>sans</name>
+      <name>Liberation Sans</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>normal</weight>
@@ -93,7 +93,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>sans</name>
+      <name>Liberation Sans</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>bold</weight>
@@ -102,7 +102,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>sans</name>
+      <name>Liberation Sans</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>bold</weight>
@@ -122,9 +122,11 @@
        and back in -->
     <number>3</number>
     <firstdesk>1</firstdesk>
-    <names><name>term</name><name>www</name><name>etc</name>
-    --&gt;
-  </names>
+    <names>
+        <name>term</name>
+        <name>www</name>
+        <name>etc</name>
+    </names>
     <popupTime>0</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
        desktops.  Set this to 0 to disable the popup. -->
@@ -156,7 +158,7 @@
     <right>0</right>
   </margins>
   <dock>
-    <position>TopLeft</position>
+    <position>BottomLeft</position>
     <!-- (Top|Bottom)(Left|Right|)|Top|Bottom|Left|Right|Floating -->
     <floatingX>0</floatingX>
     <floatingY>0</floatingY>
@@ -319,20 +321,42 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="W-space">
+    <keybind key="C-space">
       <action name="Execute">
         <command>gmrun</command>
       </action>
     </keybind>
-    <keybind key="W-A-space">
+    <keybind key="W-space">
       <action name="Execute">
         <command>cb-exit</command>
       </action>
     </keybind>
-    <!-- Launch gnome-screenshot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
-        <command>gnome-screenshot</command>
+        <command>xfce-screenshooter</command>
+      </action>
+    </keybind>
+    <!-- A bit of tiling -->
+    <keybind key="W-Right">
+      <action name="GrowToEdgeEast"/>
+    </keybind>
+    <keybind key="W-Left">
+      <action name="GrowToEdgeWest"/>
+    </keybind>
+    <keybind key="W-Down">
+      <action name="GrowToEdgeSouth"/>
+    </keybind>
+    <keybind key="W-Up">
+      <action name="GrowToEdgeNorth"/>
+    </keybind>
+    <keybind key="W-A-Left">
+      <action name="Execute">
+        <command>cb-aerosnap --left</command>
+      </action>
+    </keybind>
+    <keybind key="W-A-Right">
+      <action name="Execute">
+        <command>cb-aerosnap --right</command>
       </action>
     </keybind>
   </keyboard>
