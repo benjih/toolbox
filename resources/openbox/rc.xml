@@ -349,14 +349,22 @@
     <keybind key="W-Up">
       <action name="GrowToEdgeNorth"/>
     </keybind>
-    <keybind key="W-A-Left">
+    <keybind key="C-W-Left">
       <action name="Execute">
         <command>cb-aerosnap --left</command>
       </action>
     </keybind>
-    <keybind key="W-A-Right">
+    <keybind key="C-W-Right">
       <action name="Execute">
         <command>cb-aerosnap --right</command>
+      </action>
+    </keybind>
+    <keybind key="C-W-Up">
+      <action name="ToggleMaximizeFull">
+      </action>
+    </keybind>
+    <keybind key="C-W-Down">
+      <action name="Iconify">
       </action>
     </keybind>
   </keyboard>
