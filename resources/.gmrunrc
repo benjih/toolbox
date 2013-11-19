@@ -12,6 +12,7 @@ URL_chrome = google-chrome %s
 
 URL_g = google-chrome 'http://www.google.com/search?q=%s'
 URL_gis = google-chrome 'https://www.google.com/search?site=&tbm=isch&q=%s'
+URL_reddit = google-chrome 'http://www.reddit.com/r/%s'
 URL_yt = google-chrome 'http://www.youtube.com/results?search_query=%s'
 URL_wiki = google-chrome 'http://en.wikipedia.org/wiki/%s'
 URL_scholar = google-chrome 'http://scholar.google.co.uk/scholar?hl=en&q=%s'
