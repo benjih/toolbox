@@ -28,7 +28,7 @@ menu.items.font: shadow=n
 menu.title.text.font: shadow=n
 =====================================
 # Window title justification
-window.label.text.justify: left
+window.label.text.justify: center
 =====================================
 # Active window
 window.active.title.bg: Flat
