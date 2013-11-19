@@ -8,7 +8,7 @@ padding.width: 1
 border.width: 3
 window.client.padding.width: 1
 window.client.padding.height: 1
-window.handle.width: 2
+window.handle.width: 0
 ===================================
 #Menu geometry
 menu.border.width: 1
