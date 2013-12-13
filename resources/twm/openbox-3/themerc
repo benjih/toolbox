@@ -1,124 +1,131 @@
-#Name TWM Openbox theme
-#Author Adolfscloud <adolfscloud@gmail.com>
-#License GPL-3.0+
-===================================
+#Menu font #333333
+#Menu background #ffffff
+#Menu separator #d9d9d9
+#use DejaVu Sans 13 px
+#google green #53a93f
 
-# Window geometry
-padding.width: 1
-border.width: 3
-window.client.padding.width: 1
-window.client.padding.height: 1
-window.handle.width: 0
-===================================
-#Menu geometry
-menu.border.width: 1
-menu.overlap: 0
-===================================
-# Border colors
-window.active.border.color: #4e4e4e
-window.inactive.border.color: #4e4e4e
-menu.border.color: #1d1d1d
-window.active.client.color: #4e4e4e
-window.inactive.client.color: #4e4e4e
-====================================
-# Text shadows
-window.active.label.text.font: shadow=n
-window.inactive.label.text.font: shadow=n
-menu.items.font: shadow=n
-menu.title.text.font: shadow=n
-=====================================
-# Window title justification
-window.label.text.justify: center
-=====================================
-# Active window
-window.active.title.bg: Flat
-window.active.title.bg.color: #4e4e4e
-window.active.title.bg.colorTo: #4e4e4e
+#Zero borders
 
-window.active.label.bg: Parentrelative
-window.active.label.text.color: #a0a0a0
+border.width:      0
+menu.border.width: 0
+osd.border.width:  0
 
-window.active.handle.bg: Flat
-window.active.handle.bg.color: #4e4e4e
-window.active.handle.bg.colorTo: #4e4e4e
 
-window.active.grip.bg: Flat
-window.active.grip.bg.color: #4e4e4e
-window.active.grip.bg.colorTo: #4e4e4e
+#Windows
 
-window.active.button.unpressed.bg: Parentrelative
-window.active.button.unpressed.image.color: #AADA2C
+##padding
+padding.width:                                  9
 
-window.active.button.pressed.bg: Parentrelative
-window.active.button.pressed.image.color: #ffffff
+##title colours
+window.active.title.bg:                         Solid Flat
+window.active.title.bg.color:                   #404040
+window.inactive.title.bg:                       Solid Flat
+window.inactive.title.bg.color:                 #404040
+window.active.label.bg:                         Solid Flat
+window.active.label.bg.color:                   #404040
+window.inactive.label.bg:                       Solid Flat
+window.inactive.label.bg.color:                 #404040
+window.active.label.text.color:                 #ffffff
+window.inactive.label.text.color:               #ffffff
 
-window.active.button.disabled.bg: Parentrelative
-window.active.button.disabled.image.color: #c0c0c0
+##buttons
 
-window.active.button.toggled.bg: Parentrelative
-window.active.button.toggled.image.color: #AADA2C
+###unpressed button colours
 
-window.active.button.hover.bg: Parentrelative
-window.active.button.hover.image.color: #AADA2C
-=============================================
-# Inactive windows
-window.inactive.title.bg: Flat
-window.inactive.title.bg.color: #4e4e4e
-window.inactive.title.bg.colorTo: #4e4e4e
+####icon colour
+window.active.button.unpressed.image:           Solid Flat
+window.active.button.unpressed.image.color:     #b3b3b3
+window.inactive.button.unpressed.image:         Solid Flat
+window.inactive.button.unpressed.image.color:   #b3b3b3
 
-window.inactive.label.bg: Parentrelative
-window.inactive.label.text.color: #a0a0a0
+####background
+window.active.button.unpressed.bg:              Solid Flat
+window.active.button.unpressed.bg.color:        #404040
+window.inactive.button.unpressed.bg:            Solid Flat
+window.inactive.button.unpressed.bg.color:      #404040
 
-window.inactive.handle.bg: Flat
-window.inactive.handle.bg.color: #4e4e4e
-window.inactive.handle.bg.colorTo: #4e4e4e
+###button colours on hover
 
-window.inactive.grip.bg: Flat Gradient Vertical
-window.inactive.grip.bg.color: #4e4e4e
-window.inactive.grip.bg.colorTo: #4e4e4e
+####icon colour
+window.active.button.hover.image:               Solid Flat
+window.active.button.hover.image.color:         #ffffff
+window.inactive.button.hover.image:             Solid Flat
+window.inactive.button.hover.image.color:       #ffffff
 
-window.inactive.button.unpressed.bg: Parentrelative
-window.inactive.button.unpressed.image.color: #a0a0a0
+####background
+window.active.button.hover.bg:                  Solid Flat
+window.active.button.hover.bg.color:            #737373
+window.inactive.button.hover.bg:                Solid Flat
+window.inactive.button.hover.bg.color:          #737373
 
-window.inactive.button.pressed.bg: Parentrelative
-window.inactive.button.pressed.image.color: #4e4e4e
+###button colours on press
 
-window.inactive.button.disabled.bg: Parentrelative
-window.inactive.button.disabled.image.color: #a0a0a0
+####icon colour
+window.active.button.pressed.image:             Solid Flat
+window.active.button.pressed.image.color:       #ffffff
+window.inactive.button.pressed.image:           Solid Flat
+window.inactive.button.pressed.image.color:     #ffffff
 
-window.inactive.button.toggled.bg: Parentrelative
-window.inactive.button.toggled.image.color: #a0a0a0
+####background
+window.active.button.pressed.bg:                Solid Flat
+window.active.button.pressed.bg.color:          #737373
+window.inactive.button.pressed.bg:              Solid Flat
+window.inactive.button.pressed.bg.color:        #737373
 
-window.inactive.button.hover.bg: Parentrelative
-window.inactive.button.hover.image.color: #4e4e4e
-==============================================
-# Menus
-menu.title.bg: Flat
-menu.title.bg.color: #a0a0a0
-menu.title.bg.colorTo: #a0a0a0
-menu.title.text.color: #4e4e4e
-menu.title.text.justify: Left
+##zero inside padding
+window.client.padding.width:                    0
+window.client.padding.height:                   0
 
-menu.items.bg: Flat
-menu.items.bg.color: #cccccc
-menu.items.text.color: #4e4e4e
-menu.items.disabled.text.color: #505050
+##zero bottom 'handle'
+window.handle.width:                            0
 
-menu.items.active.bg: Flat
-menu.items.active.bg.color: #4e4e4e
-menu.items.active.bg.colorTo: #4e4e4e
-menu.items.active.text.color: #cccccc
-menu.items.active.disabled.text.color: #505050
-=============================================
-#osd
-osd.border.width: 1
-osd.border.color:  #AADA2C
 
-osd.bg: flat
-osd.bg.color: #4e4e4e
-osd.bg.colorTo: #000000
-osd.bg.border.color: #AADA2C
+#Menus
 
-osd.label.bg: parentrelative
+##menu colours
 
-osd.label.text.color: #cccccc
+###text, separator
+menu.title.text.color:                  #333333
+menu.items.text.color:                  #333333
+menu.items.disabled.text.color:         #333333
+menu.items.active.text.color:           #333333
+menu.items.active.disabled.text.color:  #333333
+menu.separator.color:                   #ebebeb
+
+###background
+menu.items.bg:                          Solid Flat
+menu.items.bg.color:                    #ffffff
+menu.items.active.bg:                   Solid Flat
+menu.items.active.bg.color:             #eeeeee
+menu.title.bg:                          Solid Flat
+menu.title.bg.color:                    #ffffff
+
+##single pixel separator
+menu.separator.width:                   1
+
+
+#On Screen Dialogs (OSD)
+
+##OSD colours
+
+###text
+osd.label.text.color:   #cccccc
+
+###background
+
+####bg of desktop switcher and window switcher
+osd.bg:                 Solid Flat
+osd.bg.color:           #404040
+
+####bg of 'desktop %d' label on desktop switcher and
+####bg of unselected windows in window switcher
+osd.label.bg:           Solid Flat
+osd.label.bg.color:     #404040
+
+####colour of selected desktop bump
+osd.hilight.bg:         Solid Flat
+osd.hilight.bg.color:   #53a93f
+
+####colour of unselected desktop bumps
+osd.unhilight.bg:       Solid Flat
+osd.unhilight.bg.color: #333333
