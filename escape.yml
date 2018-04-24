@@ -7,5 +7,6 @@ inputs:
   default: world
   description: |
     Who are we greeting exactly?
+   
 build: hello.sh
 deploy: hello.sh
